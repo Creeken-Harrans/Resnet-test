@@ -1,0 +1,69 @@
+# Python cache and bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments and local Python tooling
+.venv/
+venv/
+env/
+.python-version
+
+# Build and packaging artifacts
+build/
+dist/
+*.egg-info/
+*.egg
+pip-wheel-metadata/
+
+# Test, lint, and type-check caches
+.coverage
+.coverage.*
+htmlcov/
+.cache/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.pyre/
+.pytype/
+.tox/
+.nox/
+
+# Editor and OS files
+.idea/
+.vscode/
+.DS_Store
+*.swp
+*.swo
+*~
+
+# Logs and temporary files
+*.log
+*.out
+*.err
+*.tmp
+*.bak
+
+# Local databases
+*.sqlite3
+*.db
+
+# Training artifacts and datasets
+**/data/
+**/checkpoint/
+**/runs/
+**/wandb/
+**/outputs/
+**/logs/
+
+# Model weights and archives
+*.pth
+*.pt
+*.ckpt
+*.onnx
+*.tar
+*.tar.gz
+*.zip
+
+# Notebook checkpoints
+.ipynb_checkpoints/
